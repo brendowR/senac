@@ -3,15 +3,17 @@ Curso Desenvolvimento de Aplicativos Móveis
 
 Usando **DART** e **FLUTTER**
 
-  ###Exemplo1 - Tipos de Variáveis
+ ##Aula1 - Váriaveis
 
 Espaço reservado em memória para armazenar um valor temporariamente
 
 ###Tipos de variaveis
-**String** - textos
-**int** - números inteiros
-**double** - números decimais
 
+- **String** - textos
+- **int** - números inteiros
+- **double** - números decimais
+
+ ###Exemplo1 - Tipos de Variáveis
 ```
 void(){
   String nome = "Brendow";
