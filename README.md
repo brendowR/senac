@@ -160,9 +160,9 @@ else
 }   
 ```
 
+## Exemplo 2
 
-
-```
+```dart
 void main() {
 
   double nota1, nota2, media;
