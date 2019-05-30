@@ -46,6 +46,74 @@ void(){
   
  
   }
+  ```    
+  
+  ## Aula 2
+  
+  ```dart
+  void main() {
+  
+  String nome, sobrenome, email, senha, cpf, endereco, sexo, celular, curso, nome_social;
+  
+  
+  int ano_nasc, idade, qtd_moradores; 
+  
+ 
+  double renda_familiar, renda_pessoa;
+  
+  
+  nome = "Brendow";
+  sobrenome = "dos Santos Ribeiro";
+  email = "brendowribeiro314@gmail.com";
+  senha = "*********";
+  cpf = "094.843.894-46";
+  endereco = "rua dos Alfeneteiros 4";
+  sexo = "masculino";
+  celular = "(19)98772-7066";
+  curso = "programador de Disp. Móveis";
+  nome_social = "";
+  
+  ano_nasc = 2003;
+  idade = 2019 - ano_nasc;
+  qtd_moradores = 4;
+  renda_familiar = 5000;
+  renda_pessoa = renda_familiar / qtd_moradores;
+  
+  print("**************************");
+  print("confirmação de cadastro");
+  print("**************************");
+  
+  print("\nNome: $nome $sobrenome");
+  if (nome_social != "")
+  {
+  	print("nome social: $nome_social");
+  }
+  print("sexo: $sexo");
+  print("ano denascimento: $ano_nasc");
+  print("idade: $idade");
+  print("cpf: $cpf");
+  print("celular: $celular");
+  print("endereço: $endereco");
+  
+  print("\n*****************************************");
+  print("confirmação de email");
+  print("*****************************************");
+  
+  print("\nEmail: $email");
+  print("Senha: $senha"); 
+  
+  print("\n*****************************************");
+  print("informações do senac");
+  print("*****************************************");
+  
+  print("\nquantidade de moradores: $qtd_moradores");
+  print("renda familiar: R\$ ${renda_familiar.toStringAsFixed(2)}");
+  print("renda por pesssoa: R\$ ${renda_pessoa.toStringAsFixed(2)}");
+  print("curso: $curso");
+ 
+  
+  }
+  
   ```
 
   
