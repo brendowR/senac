@@ -156,7 +156,7 @@ if(curso == "programador android")
 }
 else
 {
-   print("Vacilão, aposto que você faz ADM.")
+   print("Vacilão, aposto que você faz ADM.");
 }   
 ```
 \n = quebra de linha
