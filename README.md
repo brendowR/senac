@@ -1,20 +1,20 @@
-#senac
+# Senac
 
 Curso Desenvolvimento de Aplicativos Móveis
 
 Usando **DART** e **FLUTTER**
 
- ##Aula1 - Váriaveis
+ ## Aula1 - Váriaveis
 
 Espaço reservado em memória para armazenar um valor temporariamente
 
-###Tipos de variaveis
+### Tipos de variaveis
 
 - **String** - textos
 - **int** - números inteiros
 - **double** - números decimais
 
- ###Exemplo1 - Tipos de Variáveis
+ ### Exemplo1 - Tipos de Variáveis
 ```
 void(){
   String nome = "Brendow";
@@ -23,7 +23,7 @@ void(){
   }
   ```
   
-  ###Exemplo2 - cálculo simples
+  ### Exemplo2 - cálculo simples
   ```
   void main() {
   
@@ -120,7 +120,7 @@ void(){
   
   ```
   
-  ##condição lógica if
+  ## Condição lógica if
   
   o if serve para determinar se um bloco de instruções **deve** ou **não** ser executado, pode-se dizer que sempre que for necessário **testar** algum valor usaremos o *if*
   
