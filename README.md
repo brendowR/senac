@@ -159,3 +159,4 @@ else
    print("Vacilão, aposto que você faz ADM.")
 }   
 ```
+\n = quebra de linha
