@@ -159,4 +159,27 @@ else
    print("Vacilão, aposto que você faz ADM.");
 }   
 ```
-\n = quebra de linha
+
+
+
+```
+void main() {
+
+  double nota1, nota2, media;
+    
+    nota1 = 7.3;
+  	nota2 = 3.5;
+ 		media = (nota1 + nota2) / 2;
+  
+  if(media >=5)
+  {
+    	print("Aprovado sua média foi $media");
+  }
+  else
+  {
+    	print("Reprovado sua média foi $media");
+  } 
+  
+}
+
+```
