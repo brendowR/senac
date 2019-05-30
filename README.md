@@ -127,7 +127,7 @@ void(){
   ## Operadores lógicos
   - == *igualdade*
   - != *diferente*
-  - >= *Maior ou igual*
+  - \>= *Maior ou igual*
   - <= *Menor igual*
   - \> *Maior*
   - < *Menor*
