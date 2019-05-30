@@ -50,6 +50,10 @@ void(){
   
   ## Aula 2
   
+  **$(renda_pessoa.toStringAsFixed(2)}
+ 
+ o método toStringAsFixed() foi usado para formatar as casas (2) decimais de variável(renda_pessoa) double,
+  
   ```dart
   void main() {
   
