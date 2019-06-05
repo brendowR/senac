@@ -31,20 +31,17 @@ void(){
   calcular a idade e mostrar ao final uma mensagem com todos esses dados.
   
   String nome, sobrenome, email;
-   nome = "Brendow";
-   sobrenome = "Ribeiro";
-   email = "brendowribeiro314@gmail.com";
+  nome = "Brendow";
+  sobrenome = "Ribeiro";
+  email = "brendowribeiro314@gmail.com";
   
   int ano_de_nascimento, idade;
   ano_de_nascimento = 2003;
   idade = 2019 - ano_de_nascimento;
   
-  
   print("boa tarde $nome $sobrenome");
   print("seu email é: $email");
   print("você tem $idade anos");
-  
- 
   }
   ```    
   
@@ -59,12 +56,9 @@ void(){
   
   String nome, sobrenome, email, senha, cpf, endereco, sexo, celular, curso, nome_social;
   
-  
   int ano_nasc, idade, qtd_moradores; 
   
- 
   double renda_familiar, renda_pessoa;
-  
   
   nome = "Brendow";
   sobrenome = "dos Santos Ribeiro";
@@ -114,12 +108,8 @@ void(){
   print("renda familiar: R\$ ${renda_familiar.toStringAsFixed(2)}");
   print("renda por pesssoa: R\$ ${renda_pessoa.toStringAsFixed(2)}");
   print("curso: $curso");
- 
-  
   }
-  
-  ```
-  
+  ``` 
   ## Condição lógica if
   
   o if serve para determinar se um bloco de instruções **deve** ou **não** ser executado, pode-se dizer que sempre que for necessário **testar** algum valor usaremos o *if*
@@ -234,4 +224,56 @@ void main() {
  }
 }
   
+```
+
+### If aninhado
+ 
+- Quando temos mais de 2 testes possíveis, é necessário alterar a estrutura e acrescentar um **else if** após o primeiro if.
+
+```dart
+if(teste)
+{
+ //faz isso
+}
+else if(teste)
+{
+ //faz isso
+}
+else
+{
+ //nenhum dos anteriores
+}
+```
+### Exemplo if else if
+
+```dart
+void main() {
+ String cidade_natal;
+  cidade_natal = "são josé do rio pardo";
+  
+  if(cidade_natal.toLowerCase() == "são joão da boa vista")
+  {
+    print("São Joanense");
+  }
+  else if(cidade_natal.toLowerCase() == "rio de janeiro")
+  {
+   	print("carioca");
+  }
+   else if(cidade_natal.toLowerCase() == "são paulo")
+  {   
+  	print("paulista");
+  }   
+    else if(cidade_natal.toLowerCase() == "bahia")
+  {
+    print("baiano");
+  }  
+   else if(cidade_natal.toLowerCase() == "cabo verde")
+  {   
+    print("cabo-verdiano");
+  } 
+  else
+  {
+    print("Cidade não cadastrada");
+  }  
+}
 ```
