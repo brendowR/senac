@@ -143,9 +143,8 @@ void(){
   {
      //faz isso se o teste for falso
   }
-  ```
   
-## Exemplo if
+## Exemplo If
 
 ```dart
 String curso = "programador android";
@@ -164,10 +163,8 @@ else
 
 ```dart
 void main() {
-
   double nota1, nota2, media;
-    
-    nota1 = 7.3;
+   nota1 = 7.3;
   	nota2 = 3.5;
  		media = (nota1 + nota2) / 2;
   
@@ -178,8 +175,63 @@ void main() {
   else
   {
     	print("Reprovado sua média foi $media");
-  } 
-  
+  }
 }
 
+```
+
+## Aula 3 - Lógica com DART
+
+Foi importada a *biblioteca* **dart:math** para podermos usar funções matemáticas como póptência e raiz quadrada, no exemplo abaixo foi usada a função **math:sqrt()** para calcular a raiz de delta.
+
+- Após a importação foi dado um "apelido"para chamar a função através da sintaxe **as** (dart:math as **math**)
+- foram usados 2 if, 1° para dar acesso atrvés da palavra mágica SHAZAM e o 2° para fazer a equação.
+- Cada if tem seu próprio else, daí a importância de *identar*, organizar o código com **TABS**
+
+### Exemplos usando math
+```dart
+print(math.sqrt(9)); //exibe a raiz de nove
+print(math.pi); //exibe o valor de pi 
+print(math.pow(2,7)); //exibe o resultado de 2 elevado a 7.
+```
+
+### Exemplo usando If dentro de If (Login e Equação de 2º grau)
+
+```dart
+import 'dart:math' as math;
+void main() {
+  String palavra_magica;
+ palavra_magica = "shazam"; 
+  if(palavra_magica == "shazam")
+ {
+    print("exercício 1 - Bhaskara");  
+    double delta, a, b, c;
+    a = 1;
+    b = -10;
+    c = 25;
+    delta = (b * b) - 4 * a * c ;
+    print("O DELTA = $delta");
+    
+    if(delta < 0)
+    {
+      print("Nenhuma raiz real pq o delta é menor que zero");
+    }
+  	else
+    {
+     double raiz_q, x1, x2; 
+      //Raiz quadrada
+      raiz_q = math.sqrt(delta);
+      print ("a raiz de delta = $raiz_q"); 
+    	x1 = (-b + raiz_q) / (2 * a);
+    	x2 = (-b - raiz_q) / (2 * a);
+      print("X1 = $x1");
+      print("X2 = $x2");
+   } 
+ } //chave do if
+ else
+ {
+   print("acesso negado, você não é digno.");
+ }
+}
+  
 ```
