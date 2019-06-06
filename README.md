@@ -277,3 +277,13 @@ void main() {
   }  
 }
 ```
+
+## Aula 4
+
+### Operador Lógico
+
+- E (AND) &&
+"Somente será VERDADE se todas as expreções forem VERDADE"
+
+- OU (OR) ||
+"Somente será falso se todas as expreções forem FALSAS".
