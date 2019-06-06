@@ -282,10 +282,10 @@ void main() {
 
 ### Operador E (AND) &&
 
-"Somente será VERDADE se todas as expreções forem VERDADE"
+"Somente será **TRUE** se todas as expreções forem **VERDADE**"
 
  ### Operador OU (OR) ||
-"Somente será falso se todas as expreções forem FALSAS".
+"Somente será **FALSE** se todas as expreções forem **FALSAS**".
 
 ## Exemplo teste de boolean
 
