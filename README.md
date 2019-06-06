@@ -280,10 +280,33 @@ void main() {
 
 ## Aula 4
 
-### Operador Lógico
+### Operador E (AND) &&
 
-- E (AND) &&
 "Somente será VERDADE se todas as expreções forem VERDADE"
 
-- OU (OR) ||
+ ### Operador OU (OR) ||
 "Somente será falso se todas as expreções forem FALSAS".
+
+## Exemplo teste de boolean
+
+```dart
+void main() {
+	
+  bool var_a, var_b;
+  var_a = true;
+  var_b = false;
+	print((var_a && var_a) || (var_b || !var_b));
+ 
+  int numero = 10;
+  if(var_a == var_b)
+  {
+    numero = 666;
+  }  
+  else
+  {
+    numero = numero + 1;
+  }
+  print(numero);
+}
+```
+bool = Em ciência da computação, boolean(bool) é um tipo de dado primitivo que possui dois valores, que podem ser considerados como 0 ou 1, falso ou verdadeiro.
