@@ -310,3 +310,61 @@ void main() {
 }
 ```
 bool = Em ciência da computação, boolean(bool) é um tipo de dado primitivo que possui dois valores, que podem ser considerados como 0 ou 1, falso ou verdadeiro.
+
+## Aula 5 - Funções
+
+/*
+ * Como cria uma função
+ * 
+ * Primeiro colocamos o retorno da função (tipo)
+ * Depois colocamos o NOME da função
+ * Depois do NOME, colocamos os PARENTESES. Dentro dos parenteses, "podemos" colocar PARÂMETROS. (pode ter ou não)
+ * Por ultimo, colocamos abertura e fechamento de CHAVES. Dentro das CHAVES, vai o código da fumção.
+ * 
+ * IMPORTANTE: só criar a função não serve para NADA.
+ * A gente tem que CHAMAR essa função no main. 
+ */
+
+void main() {
+  //Trabalhando com FUNÇÔES
+  print("Minha calculadora =  \n--------------");
+	
+  double n1, n2;
+  n1 = 10;
+  n2 = 5;
+  
+  //Essa é a chamada da função
+ calcular(n1, n2, "+");
+ calcular(n1, n2, "-");
+ calcular(n1, n2, "*");
+ calcular(n1, n2, "/");
+}
+
+void calcular(double novo_numero1, double novo_numero2, String operacao){
+  print("\nQuanto é $novo_numero1 $operacao $novo_numero2?");
+  
+  double resposta;
+  
+  if(operacao == "+") 
+  {
+    resposta = novo_numero1 + novo_numero2;
+  }
+  else if(operacao == "-")
+  {
+    resposta = novo_numero1 - novo_numero2;
+  }
+  else if(operacao == "*") 
+  {
+    resposta = novo_numero1 * novo_numero2;
+  }
+  else if(operacao == "/") 
+  {
+    resposta = novo_numero1 / novo_numero2;
+  }
+  else
+ { 
+   resposta = 0; 
+ } 
+  
+  print("o resultado é: $resposta");
+}
