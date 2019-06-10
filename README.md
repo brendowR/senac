@@ -313,6 +313,7 @@ bool = Em ciência da computação, boolean(bool) é um tipo de dado primitivo q
 
 ## Aula 5 - Funções
 
+```dart
 /*
  * Como cria uma função
  * 
@@ -368,3 +369,4 @@ void calcular(double novo_numero1, double novo_numero2, String operacao){
   
   print("o resultado é: $resposta");
 }
+```
