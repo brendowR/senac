@@ -384,3 +384,5 @@ Seguir os passos de instalação, que constituem basicamente de:
  
  
  **Criação do primeiro App**
+ 
+ Regra n°1:**Nunca feche a máquina virtual**
