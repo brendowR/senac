@@ -69,11 +69,12 @@ void main() {
           "Hello World",
           textDirection: TextDirection.ltr,
           style: new TextStyle(fontSize: 40,
-              color: Colors.indigo),
+              color: Colors.indigo,
           ), //Text Style
         ), //Text
       ), //Center
     ) //Material
   ); //RunApp
 }
+
 ```
