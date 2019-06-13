@@ -57,3 +57,10 @@ void main() {
     ),
   );
 ```
+AppBar = Barra superior do App
+FloatingActionButton = botão flutuante.
+Drawer = Gaveta.
+ListView = é um widget que serve para colocar os itens em listas(um abaixo do outro).
+UserAccountsDrawerHeader = Gaveta de usuários.
+Image.network = para colocar imagem (aí você coloca o endereço da imagem).
+ ListTile = estilo da lista.
